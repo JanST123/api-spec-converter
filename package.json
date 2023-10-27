@@ -1,5 +1,6 @@
 {
-  "name": "api-spec-converter",
+  "name": "@gridscale/api-spec-converter",
+  "private": false,
   "version": "2.13.1",
   "engines": {
     "node": ">=6.0.0"
@@ -12,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lucybot/api-spec-converter.git"
+    "url": "https://github.com/JanST123/api-spec-converter"
   },
   "keywords": [
     "API",
@@ -32,13 +33,14 @@
   ],
   "contributors": [
     "Bobby Brennan <bobby@lucybot.com> (https://lucybot.com)",
-    "Ivan Goncharov <ivan.goncharov.ua@gmail.com> (http://apis.guru)"
+    "Ivan Goncharov <ivan.goncharov.ua@gmail.com> (http://apis.guru)",
+    "Jan Stuhlmann <jan@gridscale.io> (https://gridscale.io)"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lucybot/api-spec-converter/issues"
+    "url": "https://github.com/JanST123/api-spec-converter"
   },
-  "homepage": "https://github.com/lucybot/api-spec-converter",
+  "homepage": "https://github.com/JanST123/api-spec-converter",
   "bin": {
     "api-spec-converter": "./bin/api-spec-converter"
   },

@@ -1,7 +1,7 @@
 {
   "name": "@gridscale/api-spec-converter",
   "private": false,
-  "version": "2.13.1",
+  "version": "2.13.2",
   "engines": {
     "node": ">=6.0.0"
   },

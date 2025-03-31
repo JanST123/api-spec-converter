@@ -7,6 +7,7 @@
   },
   "description": "Convert API descriptions between popular formats such as OpenAPI(fka Swagger), RAML, API Blueprint, WADL, etc.",
   "main": "index.js",
+  "types": "api-spec-converter.d.ts",
   "scripts": {
     "browserify": "node node_modules/mkdirp/bin/cmd dist && browserify -s APISpecConverter -o dist/api-spec-converter.js .",
     "test": "mocha && npm run browserify && karma start --single-run && git checkout -- dist"

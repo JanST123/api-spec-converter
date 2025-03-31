@@ -10,9 +10,18 @@ declare module '@gridscale/api-spec-converter' {
 
   export function convert(
     conversionParams: {
+      /**
+       * source format
+       */
       from: string;
+      /**
+       * target format
+       */
       to: string;
-      source: string;
+      /**
+       * the source data. Should contain an object, or a string of the filename or url
+       */
+      source: string | object;
     },
     callback: (err: Error | null, converted: ConversionResult) => void
   ): void;
